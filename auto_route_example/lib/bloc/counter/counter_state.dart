@@ -1,0 +1,1 @@
+part of 'counter_bloc.dart';@immutableabstract class CounterState {  final int counter;  const CounterState({required this.counter});}class CounterInitialState extends CounterState {  const CounterInitialState({required super.counter});}class CounterUpdatedState extends CounterState {  const CounterUpdatedState({required super.counter});}
